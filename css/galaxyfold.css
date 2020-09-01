@@ -1,0 +1,33 @@
+
+/* navbaar section */
+
+#navbar ul li a {
+    font-size: 9px;
+}
+
+/* Home section */
+
+#home h2 {
+    font-size: 23px;
+    padding-top: 62px;
+}
+
+.btn-sm{
+    font-size: 1.4rem;
+}
+
+/* client section */
+
+#clients{
+    height: 106vh;
+}
+
+#client-section::before {
+    display: none;
+}
+
+/* footer section */
+
+footer {
+    font-size: 1.2rem;
+}

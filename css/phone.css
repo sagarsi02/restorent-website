@@ -1,0 +1,104 @@
+/* Navigation section */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 13px;
+    padding: 0px 7px;
+    padding-bottom: 7px;
+}
+
+/* Home section */
+
+#home{
+    height: 404px;
+    padding: 3px 68px;
+}
+
+#home h2{
+    font-size: 21px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+
+/* Services section */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    margin: 5px -15px;
+}
+
+
+/* CLIENT section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#client-section::before{
+    background: url(none);
+}
+
+#clients img{
+    width: 122px;
+    padding: 6px;
+    height: auto;
+}
+
+
+/* about section */
+
+#about .aboutpara {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Contact section */
+
+#contact-box form {
+    width: 80%;
+}
+/* footer Section */
+ footer{
+    text-align: center;
+ }
+
+/* Utility classes */
+
+.h-primary{
+    font-size: 26px;
+}
+
+.h-secondary{
+    font-size: 27px;
+}
+
+.btn{
+    color: white;
+    font-size: 32px;
+    padding: 3px 8px;
+    margin-top: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 35px;
+}
+
